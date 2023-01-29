@@ -143,7 +143,7 @@ const Footer = ({ t }: any) => {
                 src="udemy.svg"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/akhil-jainpodtest/"
+                href="https://www.linkedin.com/in/akhil-jain-podtest/"
                 src="linkedin.svg"
               />
             </FooterContainer>
