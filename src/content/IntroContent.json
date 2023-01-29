@@ -1,0 +1,13 @@
+{
+  "title": "Making development understanding easy for SDET",
+  "text": "We aim to simplify the knowledge around each area of Development, Infrastucture Setup & Software Testing.",
+  "button": [
+    {
+      "title": "Explore"
+    },
+    {
+      "title": "Learn more",
+      "color": "#fff"
+    }
+  ]
+}

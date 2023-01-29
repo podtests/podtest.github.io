@@ -1,0 +1,16 @@
+{
+  "title": "Solutions we offer!",
+  "text": "We provide blog content, youtube videos & Udemy courses to support our offerings. ",
+  "section": [
+    {
+      "title": "Why Youtube?",
+      "content": "Core knowlede areas are provided through our youtube channel as free content.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Why Udemy?",
+      "content": "We offer single course covering everything related to Architecture, Networking, Containers, K8, AWS, Backend, Frontend, DB, Testing",
+      "icon": "notes.svg"
+    }
+  ]
+}

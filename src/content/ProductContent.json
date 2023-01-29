@@ -1,0 +1,4 @@
+{
+  "title": "What Testing Areas are covered?",
+  "text": "UI Automation Testing like Selenium, Cypress.io, API Testing like Postman, RestAssured, Pact testing , Performance Testing like Jmeter, Load Runner, Security Testing like burpsuite."
+}
