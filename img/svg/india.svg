@@ -1,5 +1,30 @@
-<svg version="1.1" baseProfile="full" width="300" height="150" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="50" fill="orange" />
-  <circle cx="150" cy="75" r="25" stroke="blue" stroke-width="1" fill="white" />
-  <rect width="100%" height="50" y="100" fill="green" />
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="900"
+    height="600"
+    version="1.1"
+    viewBox="0 0 450 300"
+>
+    <rect width="450" height="100" fill="#ff9933"/>
+    <rect width="450" height="100" fill="#ffffff" y="100"/>
+    <rect width="450" height="100" fill="#138808" y="200"/>
+    <g transform="translate(225 150)" stroke="#008" stroke-width="0" fill="#008">
+        <circle r="43" stroke-width="6" fill-opacity="0"/>
+        <circle r="8"/>
+        <g id="quarter">
+            <g id="spoke">
+                <circle r="2" cy="40" transform="rotate(7.5)"/>
+                <polygon points="0,4 1.4,16 0,42 -1.4,16"/>
+            </g>
+            <use xlink:href="#spoke" transform="rotate(15)"/>
+            <use xlink:href="#spoke" transform="rotate(30)"/>
+            <use xlink:href="#spoke" transform="rotate(45)"/>
+            <use xlink:href="#spoke" transform="rotate(60)"/>
+            <use xlink:href="#spoke" transform="rotate(75)"/>
+        </g>
+        <use xlink:href="#quarter" transform="rotate(90)"/>
+        <use xlink:href="#quarter" transform="rotate(180)"/>
+        <use xlink:href="#quarter" transform="rotate(270)"/>
+    </g>
 </svg>
