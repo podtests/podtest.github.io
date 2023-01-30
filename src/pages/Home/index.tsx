@@ -30,6 +30,7 @@ const Home = () => {
         content2={MiddleBlockContent.text2}
         content3={MiddleBlockContent.text3}
         button={MiddleBlockContent.button}
+        id="why"
       />
       <ContentBlock
         type="left"
@@ -56,6 +57,7 @@ const Home = () => {
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}
+        content2={ContactContent.text2}
         id="contact"
       />
     </Container>

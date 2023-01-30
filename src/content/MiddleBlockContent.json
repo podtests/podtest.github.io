@@ -1,6 +1,6 @@
 {
     "title": "Why PodTest?",
-    "text": "Testing solutions should be provided based on anlyzing various factors which include Techstack used, Branching strategy, Dev Architecture, Environments used, etc. ",
+    "text": "Testing solutions should be provided based on analyzing various factors which include Techstack used, Branching strategy, Dev Architecture, Environments used, etc. ",
     "text2":"Testers lack the knowledge in these areas & are unable to fullly understand them which hampers their judgement on taking the right approach for testing.",
     "text3":"We aim to fill this knowledge gap with our content & tutorials.",
     "button": "Get started"
