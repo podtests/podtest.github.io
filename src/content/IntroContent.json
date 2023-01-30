@@ -3,11 +3,13 @@
   "text": "We aim to simplify the knowledge around each area of Development, Infrastucture Setup & Software Testing.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Explore",
+      "scroll_to":"why"
     },
     {
       "title": "Learn more",
-      "color": "#fff"
+      "color": "#fff",
+      "scroll_to":"about"
     }
   ]
 }
