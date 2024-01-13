@@ -9,12 +9,13 @@ interface MiddleBlockProps {
   content: string;
   content2: string;
   content3: string;
+  content4: string;
   button: string;
   id: string;
   t: any;
 }
 
-const MiddleBlock = ({ title, content, content2, content3, button, id, t }: MiddleBlockProps) => {
+const MiddleBlock = ({ title, content, content2, content3,content4, button, id, t }: MiddleBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
     element.scrollIntoView({
@@ -30,9 +31,10 @@ const MiddleBlock = ({ title, content, content2, content3, button, id, t }: Midd
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
               <Content>{t(content2)}</Content>
-              <Content>{t(content3)}</Content>
+              <Content>{t(content3)}</Content>  
+              <Content>{t(content4)}</Content>            
               {button && (
-                <Button name="submit" onClick={() => scrollTo("mission")}>
+                <Button name="submit" onClick={() =>  window.open('https://forms.gle/3cbB2qUhLLFFSNdj9') }>
                   {t(button)}
                 </Button>
               )}

@@ -5,36 +5,31 @@ import { Button } from "../../../common/Button";
 import { ContentBlockProps } from "../types";
 import { Fade } from "react-awesome-reveal";
 import {
-  RightBlockContainer,
+  MainBlockContainer,
   Content,
   ContentWrapper,
   ButtonWrapper,
 } from "./styles";
 
-const RightBlock = ({
+const MainBlock = ({
   title,
   content,
   content2,
+  content3,
+  content4,
   button,
   icon,
   t,
   id,
 }: ContentBlockProps) => {
-  const scrollTo = (id: string) => {
-    const element = document.getElementById(id) as HTMLDivElement;
-    element.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
   return (
-    <RightBlockContainer>
+    <MainBlockContainer>
       <Fade direction="right">
         <Row justify="space-between" align="middle" id={id}>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
-              <h6>{t(title)}</h6>
+              <h6>{t(title)}</h6>                            
               <Content>{t(content)}</Content>
-              <Content>{t(content2)}</Content>
               <ButtonWrapper>
                 {typeof button === "object" &&
                   button.map((item: any, id: number) => {
@@ -43,13 +38,17 @@ const RightBlock = ({
                         key={id}
                         color={item.color}
                         fixedWidth={true}
-                        onClick={() => scrollTo(item.scroll_to)}
+                        onClick={() => window.open('https://forms.gle/3cbB2qUhLLFFSNdj9') }
                       >
                         {t(item.title)}
                       </Button>
                     );
                   })}
               </ButtonWrapper>
+              <br></br>
+              <Content>{t(content2)}</Content>
+              <Content>{t(content3)}</Content>
+              <Content>{t(content4)}</Content>              
             </ContentWrapper>
           </Col>
           <Col lg={11} md={11} sm={12} xs={24}>
@@ -57,8 +56,8 @@ const RightBlock = ({
           </Col>
         </Row>
       </Fade>
-    </RightBlockContainer>
+    </MainBlockContainer>
   );
 };
 
-export default withTranslation()(RightBlock);
+export default withTranslation()(MainBlock);

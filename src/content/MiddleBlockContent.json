@@ -1,8 +1,9 @@
 {
     "title": "Why PodTest?",
-    "text": "Testing solutions should be provided based on analyzing various factors which include Techstack used, Branching strategy, Dev Architecture, Environments used, etc. ",
-    "text2":"Testers lack the knowledge in these areas & are unable to fullly understand them which hampers their judgement on taking the right approach for testing.",
-    "text3":"We aim to fill this knowledge gap with our content & tutorials.",
-    "button": "Get started"
+    "text": "👉 'AKHIL JAIN' Our Founder, has taught more than 1000+ aspiring SDET's on popular platform like 'GeeksForGeeks' & 'TheTestTribe'.",
+    "text2":"Learn modern skillsets to design scalable Automation Frameworks which involves working on Java, JavaScript, Selenium, Appium, Webdriver.io, Protractor, Cypress, Playwright, Linux, Docker, Git, Maven, RestAssured, PostMan, JMeter, LoadRunner, Jenkins, GitLab, Kubernetes, Cloud Infrastructure like AWS",
+    "text3":"Today, we are seeing a surge in demand of Automation Engineers, companies are on a hunt for Full-Stack SDET's. Uplift yourself & join the ride!",
+    "text4":"Start your journey of becoming the Full-Stack SDET with us, we have the required skillset, real-world projects, resourses & more importantly dedicated time to understand you & your needs. ",
+    "button": "Register"
   }
   

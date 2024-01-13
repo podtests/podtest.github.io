@@ -37,14 +37,14 @@ const Header = ({ t }: any) => {
     };
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("why")}>
-          <Span>{t("Mission")}</Span>
+        <CustomNavLinkSmall onClick={() => window.open('https://forms.gle/3cbB2qUhLLFFSNdj9')}>
+          <Span>{t("Full-Stack Bootcamp")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("Product")}</Span>
+        <CustomNavLinkSmall onClick={() => window.open('https://forms.gle/WgmDuBHkEqLmoGm88')}>
+          <Span>{t("Architect BootCamp")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Topics covered")}</Span>
+          <Span>{t("Benefits | Pricing")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}

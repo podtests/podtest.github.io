@@ -2,12 +2,14 @@ import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../../common/SvgIcon";
 import { ContentBlockProps } from "../types";
+import { Button } from "../../../common/Button";
 import { Fade } from "react-awesome-reveal";
 import {
   LeftContentSection,
   Content,
   ContentWrapper,
   ServiceWrapper,
+  ButtonWrapper,
   MinTitle,
   MinPara,
 } from "./styles";
@@ -16,7 +18,9 @@ const LeftContentBlock = ({
   icon,
   title,
   content,
+  content2,
   section,
+  button,
   t,
   id,
 }: ContentBlockProps) => {
@@ -31,6 +35,7 @@ const LeftContentBlock = ({
             <ContentWrapper>
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
+              <Content>{t(content2)}</Content>             
               <ServiceWrapper>
                 <Row justify="space-between">
                   {typeof section === "object" &&
@@ -39,7 +44,7 @@ const LeftContentBlock = ({
                         <Col key={id} span={11}>
                           <SvgIcon src={item.icon} width="60px" height="60px" />
                           <MinTitle>{t(item.title)}</MinTitle>
-                          <MinPara>{t(item.content)}</MinPara>
+                          <MinPara>{t(item.content)}</MinPara>                          
                         </Col>
                       );
                     })}

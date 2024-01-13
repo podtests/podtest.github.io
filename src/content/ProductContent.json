@@ -1,4 +1,6 @@
 {
-  "title": "What Testing Areas are covered?",
-  "text": "UI Automation Testing like Selenium, Cypress.io, API Testing like Postman, RestAssured, Pact testing , Performance Testing like Jmeter, Load Runner, Security Testing like burpsuite."
+  "title": "What extra Benefits you get on enrolment?",
+  "text": "If you enrol in this program, you would get from next day the access to all our present & future Recorded courses made available on podtest.in at free of cost.",
+  "text2":"Currently we already have in-depth high quality content courses on Java | Selenium | Maven | TestNg | Git | Framework Design using POM Pattern | Jenkins , atleast 10+ courses are in edit phase",
+  "button": "Register"
 }

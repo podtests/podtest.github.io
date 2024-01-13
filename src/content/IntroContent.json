@@ -1,15 +1,13 @@
 {
-  "title": "Making development understanding easy for SDET",
-  "text": "We aim to simplify the knowledge around each area of Development, Infrastucture Setup & Software Testing.",
+  "title": "🚀 Full-Stack SDET Bootcamp 💖",
+  "text": "Become a Full-Stack SDET who can work on Web, Mobile, API, Database, Performance testing using two different tech-stacks one based on Java & other on JavaScript.",
+  "text2":"Java | JavaScript | Selenium | WebDriver.io | Cypress | Playwright | Maven | Git | TestNG | Jenkins | Jmeter | Linux | Docker | AWS | kubernetes | PostMan | Rest-Assured |Appium | Data Structures & Algorithms | Interview Preperation | Live Class Recordings",
+  "text3":"Most Affordable & Extensive 6+ month Live Daily classes Bootcamp.",
+  "text4":"Bootcamp starting on 4th March 2024, If interested, Register yourself, will share Detailed Syllabus, Pricing details with you. We Will start accepting payment from 31st January 2024.",
   "button": [
     {
-      "title": "Explore",
+      "title": "Register",      
       "scroll_to":"why"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff",
-      "scroll_to":"about"
     }
   ]
 }

@@ -17,9 +17,12 @@ const Home = () => {
     <Container>
       <ScrollToTop />
       <ContentBlock
-        type="right"
+        type="main"
         title={IntroContent.title}
-        content={IntroContent.text}
+        content={IntroContent.text}  
+        content2={IntroContent.text2}       
+        content3={IntroContent.text3} 
+        content4={IntroContent.text4} 
         button={IntroContent.button}
         icon="developer.svg"
         id="intro"
@@ -29,6 +32,7 @@ const Home = () => {
         content={MiddleBlockContent.text}
         content2={MiddleBlockContent.text2}
         content3={MiddleBlockContent.text3}
+        content4={MiddleBlockContent.text4}
         button={MiddleBlockContent.button}
         id="why"
       />
@@ -44,6 +48,8 @@ const Home = () => {
         type="right"
         title={MissionContent.title}
         content={MissionContent.text}
+        content2={MissionContent.text2}
+        button={MissionContent.button}
         icon="product-launch.svg"
         id="mission"
       />
@@ -51,13 +57,15 @@ const Home = () => {
         type="left"
         title={ProductContent.title}
         content={ProductContent.text}
+        content2={ProductContent.text2}
+        button={ProductContent.button}
         icon="waving.svg"
         id="product"
       />
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}
-        content2={ContactContent.text2}
+        content2={ContactContent.text2}        
         id="contact"
       />
     </Container>
