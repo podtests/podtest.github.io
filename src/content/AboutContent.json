@@ -4,14 +4,16 @@
   "section": [
     {
       "title": "Full-Stack SDET Bootcamp",
-      "content": "Learn to work on Web, Mobile, API, Database, Performance testing using two different tech-stacks one based on Java & other on JavaScript. If Interested, Register using top menu link.",
+      "content": "Learn to work on Web, Mobile, API, Database, Performance testing using two different tech-stacks one based on Java & other on JavaScript. If Interested, Register using below button.",
       "button":"Register",
+      "url":"https://forms.gle/3cbB2qUhLLFFSNdj9",
       "icon": "notes.svg"
     },
     {
       "title": "Free Automation Architect Bootcamp",
-      "content": "We are running this free bootcamp on Every Sunday, 2 hours. Here we discuss Architectures of different products from QA/SDET's perspective. If Interested, Register using top menu link.",
+      "content": "We are running this free bootcamp on Every Sunday, 2 hours. Here we discuss Architectures of different products from QA/SDET's perspective. If Interested, Register using below button.",
       "button":"Register",
+      "url":"https://forms.gle/WgmDuBHkEqLmoGm88",
       "icon": "notes.svg"
     }
   ]

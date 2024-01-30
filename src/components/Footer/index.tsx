@@ -2,7 +2,7 @@ import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../common/SvgIcon";
 import Container from "../../common/Container";
-
+        
 import i18n from "i18next";
 import {
   FooterSection,
@@ -18,7 +18,7 @@ import {
   Language,
   Label,
   LanguageSwitch,
-  LanguageSwitchContainer,
+  LanguageSwitchContainer  
 } from "./styles";
 
 interface SocialLinkProps {
@@ -29,6 +29,13 @@ interface SocialLinkProps {
 const Footer = ({ t }: any) => {
   const handleChange = (language: string) => {
     i18n.changeLanguage(language);
+  };
+
+  const scrollTo = (id: string) => {
+    const element = document.getElementById(id) as HTMLDivElement;
+    element.scrollIntoView({
+      behavior: "smooth",
+    });   
   };
 
   const SocialLink = ({ href, src }: SocialLinkProps) => {
@@ -50,70 +57,39 @@ const Footer = ({ t }: any) => {
       <FooterSection>
         <Container>
           <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
-              <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
-              </Para>
-              <a href="mailto:akhiljda@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
-              </a>
+            <Col lg={10} md={10} sm={12} xs={12}>  
+              <Language>{t("Company")}</Language>                          
+              <Large left="true" to="/" onClick={() => scrollTo("why")}>
+                {t("About Us")}
+              </Large>                                
+              <Large to="/">{t("Tell us everything")}</Large>  
+              <Large to="/">{t("Email Details")}</Large>
+               
+
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/" left="true">
-                {t("Application Security")}
+              <Title>{t("Policies")}</Title>
+              <Large to="/" left="true" >
+                {t("Terms & Conditions")}
+              </Large>              
+              <Large left="true" to="/">
+                {t("Cancellation Policy")}
               </Large>
               <Large left="true" to="/">
-                {t("Software Principles")}
-              </Large>
-            </Col>
+                {t("Refund Policy")}
+              </Large>              
+            </Col>   
             <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
-              <Large left="true" to="/">
-                {t("Support Center")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Customer Support")}
-              </Large>
-            </Col>
-          </Row>
-          <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Empty />
-              <Language>{t("Address")}</Language>
-              <Large>Noida, India</Large>                           
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large left="true" to="/">
-                {t("About")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Blog")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Press")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Careers & Culture")}
-              </Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Label htmlFor="select-lang">{t("Language")}</Label>
-              <LanguageSwitchContainer>
-                <LanguageSwitch onClick={() => handleChange("en")}>
-                  <SvgIcon
+              <Title>{t("Address")}</Title>              
+              <Large>B-51, KH NO. 15/7/1, Gali No.2, Khazani Nagar, Johripur, Delhi-94, India</Large>                           
+              <SvgIcon
                     src="india.svg"
                     aria-label="homepage"
                     width="30px"
                     height="30px"
                   />
-                </LanguageSwitch>              
-              </LanguageSwitchContainer>
-            </Col>
-          </Row>
+            </Col>         
+          </Row>                    
         </Container>
       </FooterSection>
       <Extra>

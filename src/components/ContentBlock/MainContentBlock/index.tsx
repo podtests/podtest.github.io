@@ -11,6 +11,16 @@ import {
   ButtonWrapper,
 } from "./styles";
 
+const onButtonClick = () => {
+  const pdfUrl = "FullStackBootCamp_Syllabus.pdf";
+  const link = document.createElement("a");
+  link.href = pdfUrl;
+  link.download = "FullStackBootCamp_Syllabus.pdf"; // specify the filename
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
 const MainBlock = ({
   title,
   content,
@@ -38,12 +48,15 @@ const MainBlock = ({
                         key={id}
                         color={item.color}
                         fixedWidth={true}
-                        onClick={() => window.open('https://forms.gle/3cbB2qUhLLFFSNdj9') }
+                        onClick={() => window.open(item.url) }                        
                       >
                         {t(item.title)}
                       </Button>
                     );
                   })}
+                <Button name="submit" color="#42f563" onClick={onButtonClick}>
+                {t("Download Brouchure")}
+                </Button>                  
               </ButtonWrapper>
               <br></br>
               <Content>{t(content2)}</Content>
