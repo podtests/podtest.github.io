@@ -15,10 +15,10 @@ interface MiddleBlockProps {
   t: any;
 }
 const onButtonClick = () => {
-  const pdfUrl = "FullStackBootCamp_Syllabus.pdf";
+  const pdfUrl = "SDETProgram_Syllabus.pdf";
   const link = document.createElement("a");
   link.href = pdfUrl;
-  link.download = "FullStackBootCamp_Syllabus.pdf"; // specify the filename
+  link.download = "SDETProgram_Syllabus.pdf"; // specify the filename
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -44,7 +44,7 @@ const MiddleBlock = ({ title, content, content2, content3,content4, button, id, 
               <Content>{t(content4)}</Content>      
               <ButtonWrapper>
               {button && (
-                <Button name="submit" onClick={() =>  window.open('https://forms.gle/3cbB2qUhLLFFSNdj9') }>
+                <Button name="submit" onClick={() =>  window.open('https://forms.gle/TaLnQfZKUKjM21oHA') }>
                   {t(button)}
                 </Button>
               )}

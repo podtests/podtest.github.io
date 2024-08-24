@@ -37,11 +37,11 @@ const Header = ({ t }: any) => {
     };
     return (
       <>
+        <CustomNavLinkSmall onClick={() => window.open('https://forms.gle/TaLnQfZKUKjM21oHA')}>
+          <Span>{t("SDET Program")}</Span>
+        </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => window.open('https://forms.gle/3cbB2qUhLLFFSNdj9')}>
           <Span>{t("Full-Stack Bootcamp")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => window.open('https://forms.gle/WgmDuBHkEqLmoGm88')}>
-          <Span>{t("Architect BootCamp")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
           <Span>{t("Benefits | Pricing")}</Span>

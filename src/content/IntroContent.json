@@ -1,13 +1,13 @@
 {
-  "title": "🚀 Full-Stack SDET Bootcamp 💖",
-  "text": "Become a real Full-Stack SDET (6+ months live online daily classes) who can work on Web, Mobile, API, Database, Performance testing using two different tech-stacks one based on Java & other on JavaScript at the most affordable price",
-  "text2":"Java | JavaScript | Selenium | WebDriver.io | Cypress | Playwright | Maven | Git | TestNG | Jenkins | Jmeter | Linux | Docker | AWS | SQL | PostMan | Rest-Assured |Appium | Data Structures & Algorithms | Interview Preperation | Live Class Recordings",
-  "text3":"Most Affordable & Extensive 6+ month Live Daily classes Bootcamp.",
-  "text4":"Bootcamp starting on 4th March 2024, If interested, Register yourself & download the brouchure for Syllabus, schedule, coverage, payment details etc.",
+  "title": "🚀 SDET Program 💖",
+  "text": "Learn to become an SDET who can create a Web Automation Framework from scratch which meets the Product Company standards using Java- Selenium related tech-stack",
+  "text2":"Java | Selenium | Framework Design | Design patterns | Maven | Git | TestNG | Jenkins | Linux | Docker | AWS | SQL | Data Structures & Algorithms | Interview Preperation | Recordings",
+  "text3":"Most Affordable & Extensive In-Depth Videos.",
+  "text4":"If interested, Register yourself & download the brouchure for Syllabus, Topics List, schedule, coverage, payment details etc.",
   "button": [
     {
       "title": "Register", 
-      "url":"https://forms.gle/3cbB2qUhLLFFSNdj9",
+      "url":"https://forms.gle/TaLnQfZKUKjM21oHA",
       "color":"",     
       "scroll_to":"why"
     }    

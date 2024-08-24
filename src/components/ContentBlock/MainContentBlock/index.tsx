@@ -12,10 +12,10 @@ import {
 } from "./styles";
 
 const onButtonClick = () => {
-  const pdfUrl = "FullStackBootCamp_Syllabus.pdf";
+  const pdfUrl = "SDETProgram_Syllabus.pdf";
   const link = document.createElement("a");
   link.href = pdfUrl;
-  link.download = "FullStackBootCamp_Syllabus.pdf"; // specify the filename
+  link.download = "SDETProgram_Syllabus.pdf"; // specify the filename
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);

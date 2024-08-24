@@ -111,7 +111,7 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://youtube.com/@podtest"
+                href="https://youtube.com/@namastetest?sub_confirmation=1"
                 src="youtube.svg"
               />
               <SocialLink

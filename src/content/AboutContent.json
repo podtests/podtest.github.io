@@ -3,18 +3,18 @@
   "text": "We provide Live Bootcamps, Recorded Classes, Events & Workshops to support our offerings. ",
   "section": [
     {
+      "title": "Recorded SDET Program",
+      "content": "Learn to become an SDET who can create a Web Automation Framework from scratch which meets the Product Company standards using Java- Selenium related tech-stack. If Interested, Register using below button.",
+      "button":"Register",
+      "url":"https://forms.gle/TaLnQfZKUKjM21oHA",
+      "icon": "notes.svg"
+    },
+    {
       "title": "Full-Stack SDET Bootcamp",
       "content": "Learn to work on Web, Mobile, API, Database, Performance testing using two different tech-stacks one based on Java & other on JavaScript. If Interested, Register using below button.",
       "button":"Register",
       "url":"https://forms.gle/3cbB2qUhLLFFSNdj9",
       "icon": "notes.svg"
-    },
-    {
-      "title": "Free Automation Architect Bootcamp",
-      "content": "We are running this free bootcamp on Every Sunday, 2 hours. Here we discuss Architectures of different products from QA/SDET's perspective. If Interested, Register using below button.",
-      "button":"Register",
-      "url":"https://forms.gle/WgmDuBHkEqLmoGm88",
-      "icon": "notes.svg"
-    }
+    }    
   ]
 }
